@@ -1,5 +1,12 @@
-.tabs{
-    width: 500px;
-    height: 500px;
-    background-color: red;
+.custom-tabs{
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 1.5px;
+    background-color: #fff;
+    border-bottom: 1px solid rgb(191,191,191);
+    box-sizing: border-box;
+     padding: 0 5px;
+    span{
+        padding: 8px 30px;
+    }
 }

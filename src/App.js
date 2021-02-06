@@ -2,9 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 import Tabs from './lib/tabs/index.tsx'
 function App() {
+    let tabList=["个人","团队"];
+    let tabChange=(e)=>{
+        console.log(e)
+    }
   return (
     <div className="App">
-      <Tabs/>
+      <Tabs onChange={tabChange} tabList={tabList} undeline={true} activeColor="green" />
     </div>
   );
 }
